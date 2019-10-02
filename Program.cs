@@ -14,7 +14,27 @@ namespace cryptographer
             Console.Write("Type In A Message To Encrypt: ");
             plaintext = Console.ReadLine();
 
+            // Create a new instance of the Aes
+            // class.  This generates a new key and initialization 
+            // vector (IV).
+            using (Aes myAes = Aes.Create())
+            {
 
+                // Encrypt the string to an array of bytes.
+                byte[] encryptedBytes = EncryptStringToBytes_Aes(plaintext, myAes.Key, myAes.IV);
+
+                // Convert the encrypted array of bytes to an encrypted string for readability
+                string encryptedString = Convert.ToBase64String(encryptedBytes);
+
+                // Decrypt the bytes to a string.
+                string decrypted = DecryptStringFromBytes_Aes(encryptedBytes, myAes.Key, myAes.IV);
+
+                // Display the original data, encryted data and decrypted data.
+                Console.WriteLine("\n");
+                Console.WriteLine("Original: {0}", plaintext);
+                Console.WriteLine("Encrypted: {0}", encryptedString);
+                Console.WriteLine("Decrypted: {0}", decrypted);
+            }
 
             static byte[] EncryptStringToBytes_Aes(string plainText, byte[] Key, byte[] IV)
             {
