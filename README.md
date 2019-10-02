@@ -9,6 +9,15 @@ A console application for encrypting and decrypting data with the Advanced Encry
 $ git clone https://github.com/placideirandora/cryptographer
 ```
 
+### Install C# Extension
+
+```
+$ Open the extensions tab, find and install the C# extension by OmniSharp. 
+```
+```
+$ Extension name: C# for Visual Studio Code (powered by OmniSharp).
+```
+
 ### Open The Project With Visual Studio Code
 
 ```
