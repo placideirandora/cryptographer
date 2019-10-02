@@ -10,7 +10,8 @@ namespace cryptographer
         {
             string plaintext;
 
-            Console.WriteLine("CRYPTOGRAPHER (Version 1.0)\n");
+            Console.WriteLine("***** CRYPTOGRAPHER (Version 1.0) *****");
+            Console.WriteLine("***** DEVELOPER: Placide IRANDORA *****\n");
             Console.Write("Type In A Message To Encrypt: ");
             plaintext = Console.ReadLine();
 
