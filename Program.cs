@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Security.Cryptography;
 
 namespace cryptographer
 {
@@ -6,7 +8,11 @@ namespace cryptographer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Placide IRANDORA Is A Rwandan Software Engineer And Cybersecurity Specialist.");
+            string plaintext;
+
+            Console.WriteLine("CRYPTOGRAPHER (Version 1.0)\n");
+            Console.Write("Type In A Message To Encrypt: ");
+            plaintext = Console.ReadLine();
         }
     }
 }
