@@ -1,0 +1,11 @@
+/Users/placideirandora/Coding/C#/cryptographer/bin/Debug/netcoreapp3.0/cryptographer
+/Users/placideirandora/Coding/C#/cryptographer/bin/Debug/netcoreapp3.0/cryptographer.deps.json
+/Users/placideirandora/Coding/C#/cryptographer/bin/Debug/netcoreapp3.0/cryptographer.runtimeconfig.json
+/Users/placideirandora/Coding/C#/cryptographer/bin/Debug/netcoreapp3.0/cryptographer.runtimeconfig.dev.json
+/Users/placideirandora/Coding/C#/cryptographer/bin/Debug/netcoreapp3.0/cryptographer.dll
+/Users/placideirandora/Coding/C#/cryptographer/bin/Debug/netcoreapp3.0/cryptographer.pdb
+/Users/placideirandora/Coding/C#/cryptographer/obj/Debug/netcoreapp3.0/cryptographer.csprojAssemblyReference.cache
+/Users/placideirandora/Coding/C#/cryptographer/obj/Debug/netcoreapp3.0/cryptographer.AssemblyInfoInputs.cache
+/Users/placideirandora/Coding/C#/cryptographer/obj/Debug/netcoreapp3.0/cryptographer.AssemblyInfo.cs
+/Users/placideirandora/Coding/C#/cryptographer/obj/Debug/netcoreapp3.0/cryptographer.dll
+/Users/placideirandora/Coding/C#/cryptographer/obj/Debug/netcoreapp3.0/cryptographer.pdb
