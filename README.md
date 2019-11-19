@@ -6,7 +6,7 @@ A console application for encrypting and decrypting data with the Advanced Encry
 ### Clone The Project
 
 ```
-$ git clone https://github.com/placideirandora/cryptographer
+$ git clone https://github.com/placideirandora/cryptographer-with-c-sharp
 ```
 
 ### Install C# Extension
